@@ -19,7 +19,7 @@
    5. [Hotel Media and Description Screen](#image-5-hotel-media-and-description-screen-step_5png)
    6. [Room Registration Screen](#image-6-room-registration-screen-step_6png)
    7. [Room Amenities and Promotion Screen](#image-7-room-amenities-and-promotion-screen-step_7png)
-3. [Giả định](#gi%E1%BA%A3-%C4%91%E1%BB%8Bnh)
+3. [Giả định](#gia-dinh)
 
 ---
 
