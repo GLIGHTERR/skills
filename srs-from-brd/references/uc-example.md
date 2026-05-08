@@ -18,7 +18,7 @@ cùng mức độ chi tiết như các ví dụ dưới đây.
 | Điều kiện sau (thành công) | Tài khoản đã được tạo và xác thực. Hệ thống tạo Supplier ID duy nhất. Supplier được chuyển đến màn hình APP-03 (Hotel Basic Info). |
 | Điều kiện sau (thất bại) | Tài khoản chưa được tạo. Hệ thống hiển thị thông báo lỗi tương ứng. |
 
-### Luồng chính (Main Flow)
+### Luồng cơ bản (Basic Flow)
 
 1. Supplier nhấn nút **"Đăng ký"** trên màn hình Home (APP-01).
 2. Hệ thống hiển thị màn hình chọn loại Supplier với 2 tùy chọn:
@@ -104,7 +104,7 @@ cùng mức độ chi tiết như các ví dụ dưới đây.
 | Điều kiện tiên quyết | Hotel ID đã được tạo. Supplier đang ở bước Room Setup trong onboarding flow. |
 | Điều kiện sau (thành công) | Room type được lưu, gắn với Hotel ID. Checklist cập nhật trạng thái "Hoàn tất" cho bước Room. |
 
-### Luồng chính (Main Flow)
+### Luồng cơ bản (Basic Flow)
 
 1. Hệ thống hiển thị màn hình Room Setup với danh sách phòng hiện có (ban đầu rỗng) và nút **"Thêm phòng mới"**.
 2. Supplier nhấn **"Thêm phòng mới"**.

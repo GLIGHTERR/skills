@@ -31,7 +31,9 @@ Bước 6 → Copy sang /srs/ và present_files
 ```
 
 **Không được bỏ qua Bước 3.** Các lỗi phổ biến (WidthType.PERCENTAGE, unicode bullets,
-table thiếu dual widths) chỉ được ngăn chặn khi đọc đủ docx/SKILL.md.
+table thiếu dual widths) chỉ được ngăn chặn khi đọc đủ `SKILL.md`.
+
+**Trước khi tới Bước 4 chú ý.** Nếu file BRD với cấu trúc không chuẩn hoặc thiếu một số phần, đọc file `references/brd-to-srs-mapping.md` để biết cách xử lý từng trường hợp cụ thể. Sau khi đã nắm rõ, quay lại Bước 4 để viết SRS theo cấu trúc chuẩn (Xem file `references/docx-patterns.md` để biết thêm chi tiết).
 
 ---
 
@@ -172,7 +174,7 @@ phải có ít nhất 1 use case.
 │ Điều kiện tiên: [preconditions – trạng thái hệ thống trước]  │
 │ Điều kiện sau : [postconditions – trạng thái sau khi thành]  │
 ├─────────────────────────────────────────────────────────────┤
-│ LUỒNG CHÍNH (Main Flow)                                      │
+│ LUỒNG CƠ BẢN (Basic Flow)                                      │
 │  1. Actor thực hiện [hành động]                              │
 │  2. Hệ thống [phản hồi / xử lý]                             │
 │  3. ...                                                      │
@@ -201,8 +203,8 @@ phải có ít nhất 1 use case.
 - VR-01-01 ... (validation rules nếu tách riêng)
 
 #### Quy tắc viết Use Case
-- Mỗi bước trong Main Flow bắt đầu bằng chủ thể: **Actor** hoặc **Hệ thống**
-- Không dùng jargon kỹ thuật trong Main Flow (tránh "call API", "query DB")
+- Mỗi bước trong Basic Flow bắt đầu bằng chủ thể: **Actor** hoặc **Hệ thống**
+- Không dùng jargon kỹ thuật trong Basic Flow (tránh "call API", "query DB")
 - Alternative Flow đánh địa chỉ bước gốc: "Tại bước 3..."
 - Exception Flow = lỗi / timeout / mạng / quyền truy cập
 - Validation Rules viết theo dạng: `[Tên field] — [Rule] — [Thông báo lỗi]`

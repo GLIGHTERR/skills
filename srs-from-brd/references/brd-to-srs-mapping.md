@@ -75,7 +75,7 @@ BRD mô tả: "Tạo room type: tên, diện tích, loại giường, sức ch�
 
 → UC Title    : "Tạo Room Type mới"
 → Actor       : Supplier
-→ Main Flow   : Viết chi tiết từng tương tác (mở form → nhập → upload → lưu)
+→ Basic Flow   : Viết chi tiết từng tương tác (mở form → nhập → upload → lưu)
 → Alt Flow    : Save draft, clone từ phòng khác
 → Exception   : Upload fail, validation fail, mạng chập chờn
 → Validation  : Từng field trong mô tả BRD + suy luận thêm từ validation rules §9 BRD

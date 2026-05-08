@@ -199,7 +199,7 @@ function buildUCTable(uc) {
   });
 }
 
-// Main Flow, Alt Flow, Exception Flow → dùng đoạn văn bản thường với bullets
+// Basic Flow, Alt Flow, Exception Flow → dùng đoạn văn bản thường với bullets
 // (không cần bảng, dễ đọc hơn)
 ```
 
